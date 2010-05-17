@@ -1,0 +1,101 @@
+section,
+article, 
+nav,
+header,
+aside, 
+footer 							{ display: block; }
+
+body                            { background-color: #f1f1f1; }
+section                         { background-color: #fff; padding-bottom: 50px; }
+section .container              { padding-top: 5px; }
+
+
+/* HEADER
+---------------------------- */
+header                          { background: #fff url("../images/layout/header-bg.png") repeat-x 0 0; position: relative; }
+header a:hover,
+header a                        { border: none; }
+header .container               { position: relative; }
+header h1                       { margin-bottom: 5px; font-size: 2em;}
+header h1 a                     { display: block; height: 70px; width: 300px; margin-left:-15px; background: transparent url("../images/layout/logo.png") no-repeat 0 0; text-indent: -9999px; }
+
+
+/* NAVIGATION
+---------------------------- */
+nav                             { top: 26px; position: absolute; right: 0; height: 42px; overflow: hidden;}
+nav ul                          { display: block; margin: 0; padding: 0;}
+nav ul li                       { background-color: #fff; display: inline; margin-left: 3px; float: left; height: 40px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+										
+nav ul li.current               { background-position: left top;margin-left: 2px;}
+nav ul li.last                  { margin-right: 43px; }
+
+nav ul li a                     { color: #dc2426; display: block; float: left; font-family: "Lucida Grande", sans-serif; font-size: 14px; font-weight: bold; letter-spacing: 1px; height: 42px; line-height: 43px; padding: 0 15px; text-transform: uppercase; }
+										
+nav ul li a:hover               { color: #fff; background-color: #b60e10; text-decoration: none; -moz-border-radius-topleft: 3px; -webkit-border-top-left-radius: 3px; -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px; }
+											
+nav ul li.current a             { color: #fff; background-color: #b60e10; height: 46px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+
+/* -- SUBNAV -- */
+.subnav ul                      { list-style: none; margin: 0; padding: 0; }
+.subnav ul li                   { display: block; border-bottom: 1px dotted #ccc; }
+.subnav ul li a                 { display: block; list-style: none; padding: 5px; border: none; text-transform: uppercase; color: #000; }
+.subnav ul li a:hover			{ text-decoration: none; background-color: #e1e1e1; }
+
+
+/* -- SUBNAV -- */
+.mod ul.tabs                    { /*position: absolute; top: 5px; right: 0; width: 100%;*/ margin: 0; padding: 5px 0; text-align: right; font-size: 11px; border-bottom: 1px solid #e1e1e1; }
+.mod ul.tabs li                 { display: inline-block; border: none; border-right: 1px solid #e1e1e1; padding: 0 5px;  }
+.mod ul.tabs li:last-child      { border: none;}
+.mod ul.tabs li.status			{ background-color: transparent; color: #949493; }
+
+/* FLASH MESSAGES
+---------------------------- */
+#flash_messages                 { margin-bottom: 30px; margin-top: 10px; }
+#flash_messages p               { margin-bottom: 0; padding: 4px 12px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+#flash_messages p.error         { background-color: #fcc; border: none; }
+#flash_messages p.notice        { line-height: 20px; border: 1px solid #b9b9b9; padding-left: 40px; background: #f7f7f7 url("../images/icons/notice.png") no-repeat 10px center; }
+#flash_messages p.message       { background-color: #f7f7f7; }
+
+/* SECTION
+---------------------------- */
+section.container               { margin-bottom: 50px; }
+form.hash ul                    { list-style: none; margin: 0; padding: 0;}
+form.hash li                    { display: inline; }
+form.hash li input              { width: 170px; margin-right: 20px; margin-left: 5px; }
+
+/* GENERIC MODULE STYLES
+============================= */
+.mod                             { margin-bottom: 20px; }
+.mod .hd                         { position: relative; }
+.mod .hd h2                      { border-bottom: 1px solid #e1e1e1; margin-bottom: 0; position: relative;}
+.mod .hd h2 a                    { border: none; }
+.mod .hd h2 .secondary           { position: absolute; right: 0; bottom: 7px; font-size: 12px; }
+.mod .bd                         { position: relative; }
+.mod .bd ul                      { list-style: none; margin: 0 0 15px; padding: 0; }
+.mod .bd ul li                   { position: relative; border-bottom: 1px solid #f1f1f1; padding: 5px 0; }
+.mod .bd ul li img               { float: left; margin-top: 6px; margin-left: 4px;}
+.mod .ft                         { position: relative; }
+
+/* PAGINATION 
+------------------------------*/
+div.pagination							{ text-align: center; }
+div.pagination a 						{ border:solid 1px #C8C8C8; margin-right:2px;}
+div.pagination em						{ font-style: normal; font-weight:bold; padding:3px 7px; background-color: #ccc; color: #fff;}
+div.pagination span.disabled.previous_page,
+div.pagination span.disabled.nextious_page 	{ border: solid 1px #C8C8C8; color:#888; display: inline-block; font-weight:bold; margin-right:2px; padding:4px 6px; display: none;}
+div.pagination .next_page a,
+div.pagination .prev_page a 			{ font-weight: bold; }
+div.pagination .current					{ background:#2e6ab1; color:#fff; font-weight: bold; display: inline-block; padding:4px 8px; }
+div.pagination a:link,
+div.pagination a:visited 				{ display: inline-block; padding:0px 7px 1px; text-decoration:none; }
+div.pagination a:hover 					{ border: solid 1px #0A7BC1; background-color: #0A7BC1; color: #fff; }
+div.pagination .gap						{ color:#2c6f00; font-weight:bold; display: inline-block; }
+
+/* FOOTER
+---------------------------- */
+footer                           { background-color: #f1f1f1; border-top: 1px solid #e1e1e1; padding-bottom: 10em; padding-top: 10px; }
+footer p                         { margin-bottom: 0; padding: 0 0 10px 0; }
+footer ul                        { margin: 0 0 10px; padding: 0; list-style: none; }
+footer ul li                     { display: inline; margin: 0; margin-right: 8px; padding-right: 8px; border-right: 1px solid #e1e1e1; }
+footer ul li.last                { border: 0; margin: 0; padding: 0; }
+footer ul li a                   { font-weight: bold; border: none; }

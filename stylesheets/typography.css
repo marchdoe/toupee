@@ -1,0 +1,165 @@
+/* -------------------------------------------------------------- 
+
+   typography.css
+   * Sets up some sensible default typography.
+   
+-------------------------------------------------------------- */
+
+/* Default font settings. 
+   The font-size percentage is of 16px. (0.75 * 16px = 12px) */
+html { font-size:100.01%; }
+body { 
+  font-size: 75%;
+  color: #222; 
+  background: #fff;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+
+/* Headings
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #111; }
+
+h1 { font-size: 24px; line-height: 1; margin-bottom: 12px; }
+h2 { font-size: 20px; line-height: 1; padding-bottom: 6px; margin-bottom: 12px; }
+h3 { font-size: 16px; line-height: 1; margin-bottom: 1em; }
+h4 { font-size: 14px; line-height: 1.25; margin-bottom: 1.25em; }
+h5 { font-size: 12px; font-weight: bold; margin-bottom: 1.5em; }
+h6 { font-size: 12px; font-weight: bold; }
+
+h1 img, h2 img, h3 img, 
+h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+
+/* Text elements
+-------------------------------------------------------------- */
+
+p           { margin: 0 0 1.5em; }
+p img.left  { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+p img.right { float: right; margin: 1.5em 0 1.5em 1.5em; }
+
+/*a:link, 
+a:visited 	{ color:#4083A9; text-decoration:none; }*/
+/*a:active 	{ outline: none; }*/
+/*a:focus		{ border: none; }*/
+a:hover     { color: #205F82; text-decoration: underline; }
+a           { color: #0A7BC1; text-decoration: none; outline: none; }
+
+
+blockquote  { margin: 1.5em; color: #666; font-style: italic; }
+strong      { font-weight: bold; }
+em,dfn      { font-style: italic; }
+dfn         { font-weight: bold; }
+sup, sub    { line-height: 0; }
+
+abbr, 
+acronym     { border-bottom: 1px dotted #666; }
+address     { margin: 0 0 1.5em; font-style: italic; }
+del         { color:#666; }
+
+pre 			{ text-align: center; white-space: normal;}
+/*pre,code,tt 	{ margin:0 15% 1.5em; }*/
+
+
+/* Lists
+-------------------------------------------------------------- */
+
+li ul,
+li ol       { margin: 0; }
+ul, ol      { margin: 0 1.5em 1.5em 0; padding-left: 1.333em; }
+
+ul          { list-style-type: disc; }
+ol          { list-style-type: decimal; }
+
+dl          { margin: 0 0 1.5em 0; }
+dl dt       { font-weight: bold; }
+dd          { margin-left: 1.5em;}
+
+
+/* Tables
+-------------------------------------------------------------- */
+
+table 									{ width: 100%; background: #fff; }
+table caption 							{ margin: 0; padding: 8px 10px; text-align: left; border: 1px solid #000; border-bottom: none; background: #fff; }
+table th, table td 						{ margin: 0; padding: 8px 10px; text-align: center; border-bottom: 1px solid #e1e1e1; }
+table th 								{ font-size: 14px; font-weight: bold; }
+table th.left							{ -moz-border-radius-topleft: 3px;	-webkit-border-top-left-radius: 3px;  border-top-left-radius: 3px; }
+table th.right							{ -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px;  border-top-right-radius: 3px;  }
+table .name 							{ text-align: left; }
+table tr 								{ background-color: #fff; }
+table tr.last td						{ border-bottom: none; }
+table tr.alt 							{ background-color: #e5ecf9; }
+table td a, 
+table td a:hover 						{ font-weight: bold; border: none; }
+
+/* Secondary Table Styles */
+table.second 							{ margin-bottom: 0; position: relative; border-bottom: none; background: #fff; font-size: 11px; } 
+table.second th, table.second  td 		{ margin: 0; padding: 4px 10px; }
+table.second th 						{ padding: 0 0 0 10px; font-weight: bold;  }
+table.second th.left					{ width: 350px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px;}
+table.second th.right					{ -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+table.second tr 						{ background-color: #fff; }
+table.second tr.last td					{ border-bottom: none; }
+table.second tr.alt 					{ background-color: #F7F7F7; }
+table.second tr:hover					{ background-color: #ffc; }
+table.second tr.header:hover			{ background-color: transparent; }
+table.second th a						{ border: none; }
+
+/* QUEUE TABLES -- NEEDS TO BE CLEANED UP*/
+table.queues th,
+table.jobs th,
+table.workers th,
+table.queues td,
+table.jobs td,
+table.workers td	{ text-align: left; } 
+
+
+/* Misc classes
+-------------------------------------------------------------- */
+.right				{ float: right; }
+.left				{ float: left; }
+.reset				{ margin: 0; padding: 0; }
+.small     			{ font-size: 10px; }
+.large				{ font-size: 16px; }
+.hide				{ display: none; }
+.quiet				{ color: #bbb; }
+.loud				{ color: #000; font-weight: bold; }
+.required			{ color: #ff0000; }
+.highlight			{ background-color:#ff0; padding: 2px 6px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.added				{ background-color:#060; color: #fff; padding: 2px 6px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+.removed			{ background-color:#900; color: #fff; padding: 2px 6px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.error				{ background-color: #fcc; border: 1px solid #f00; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px }
+.pending			{ background-color: #ffc; border: 1px solid yellow; padding: 2px 6px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.sort				{ background-color: #f1f1f1; border: 1px solid #e1e1e1;   padding: 2px 6px;  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.first				{ margin-left:0; padding-left:0; }
+.last				{ margin-right:0; padding-right:0; }
+.top				{ margin-top:0; padding-top:0; }
+.bottom				{ margin-bottom:0; padding-bottom:0; }
+
+
+
+/* Misc icons
+-------------------------------------------------------------- */
+.default			{ line-height: 28px; padding-left: 30px; background: transparent url("../images/icons/default.gif") no-repeat -5px 0;}
+.doc				{ line-height: 28px; padding-left: 35px; background: transparent url("../images/icons/doc.gif") no-repeat 0 0;}
+.pdf				{ line-height: 28px; padding-left: 35px; background: transparent url("../images/icons/pdf.gif") no-repeat 0 0;}
+.xls				{ line-height: 28px; padding-left: 35px; background: transparent url("../images/icons/xls.gif") no-repeat 0 0;}
+.pic				{ line-height: 28px; padding-left: 35px; background: transparent url("../images/icons/pic.gif") no-repeat 0 0;}
+.ppt				{ line-height: 28px; padding-left: 35px; background: transparent url("../images/icons/ppt.gif") no-repeat 0 0;}
+
+.notice				{ line-height: 28px; padding-left: 35px; background: transparent url("../images/icons/notice.png") no-repeat 0 0;}
+
+.arrow				{ padding-left: 14px; background: transparent url("../images/icons/arrow.png") no-repeat left center;}
+.up					{ padding-right: 18px; background: transparent url("../images/icons/up.gif") no-repeat right center;}
+.down				{ padding-right: 18px; background: transparent url("../images/icons/down.gif") no-repeat right center;}	
+
+.web				{ line-height: 28px; padding-left: 40px; background: transparent url("../images/icons/web.png") no-repeat 0 50%;}
+.internal-drive		{ line-height: 28px; padding-left: 40px; background: transparent url("../images/icons/internal-drive.png") no-repeat 0 50%;}
+.external-drive		{ line-height: 28px; padding-left: 40px; background: transparent url("../images/icons/external-drive.png") no-repeat 0 50%;}
+.cd	                { line-height: 28px; padding-left: 40px; background: transparent url("../images/icons/cd.png") no-repeat 0 50%;}	
+
+.custodian	        { line-height: 28px; background: transparent url("../images/icons/custodian.png") no-repeat 0 50%;}
+
