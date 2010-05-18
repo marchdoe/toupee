@@ -31,7 +31,7 @@ form fieldset input.text {
 	font-size: 1.4em; 
 	color: #333; 
 	background-color: #f1f1f1; 
-	-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; 
+	-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; 
 }
 
 /* INPUT TYPE FILE
@@ -63,6 +63,11 @@ form fieldset textarea:focus 		{ border-top-color: #ddd; background: #d0eeff; ou
 
 /* SEARCH FORM
 ======================== */
+.mod .bd ul li.searchform                   { padding: 5px; } /*HACK FOR NOW TODO FIGURE OUT HOW TO REFACTOR THIS*/
+.mod.search form fieldset					{ border: none; }
+/*form .mod .bd ul li.searchform:last-child   { border: solid 1px #e1e1e1; }*/
+
+
 .searchform {
 	display: inline-block; 
 	zoom: 1; /* ie7 hack for display:inline-block */
