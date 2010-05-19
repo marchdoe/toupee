@@ -18,11 +18,16 @@
 	-webkit-border-radius: 3px; 
 	-moz-border-radius: 3px;
 	boder-radius: 3px;
-	-moz-box-shadow: #ccc 0 0 2px;
-	-webkit-box-shadow: #ccc 0 0 2px;
-	box-shadow: #ccc 0 0 2px;
+/*	-moz-box-shadow: #999 0 0 1px;
+	-webkit-box-shadow: #999 0 0 1px;
+	box-shadow: #999 0 0 1px;*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
 }
 
 .mod.box .hd, 
-.mod.box .box .bd, 
-.mod.box .box .ft { padding: 0 10px; } 
+.mod.box .bd, 
+.mod.box .ft { padding: 0 10px; } 

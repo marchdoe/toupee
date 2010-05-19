@@ -1,8 +1,7 @@
 /* BASIC FORM STRUCTURE
 ======================== */
-/*form 								{ margin: 20px 0; }*/
 form ul								{ list-style: none; margin: 0; padding: 0;}
-form ul li							{ margin: 0; padding: 10px 0; min-height: 30px; }
+form ul li							{ margin: 0; padding: 10px 0; min-height: 30px; border-bottom: 1px double #f1f1f1; }
 form ul li.last						{ border: none; }
 form label			 				{ display: block; margin: 6px 20px 2px 0; font-size: 1em; line-height: 1.5em; font-weight: bold; }
 form label span 					{ margin-right: 10px; font-size: .8em; font-weight: normal; color: #777; }
@@ -13,6 +12,7 @@ form fieldset legend				{ font-size: 16px; padding: 0 10px 0 0; background-color
 /* DISPLAYING A FORM INLINE */
 form .inline label                  { float: left; }
 form .inline.center	label           { width: 150px; text-align: right; }
+form .inline.center li.submit .button { margin-left: 170px; }
 
 /* FORM MESSAGING */
 form p.message 						{ margin: 5px 0 0 174px; font-size: .8em; line-height: 1.5em; color: red; }
@@ -65,8 +65,6 @@ form fieldset textarea:focus 		{ border-top-color: #ddd; background: #d0eeff; ou
 ======================== */
 .mod .bd ul li.searchform                   { padding: 5px; } /*HACK FOR NOW TODO FIGURE OUT HOW TO REFACTOR THIS*/
 .mod.search form fieldset					{ border: none; }
-/*form .mod .bd ul li.searchform:last-child   { border: solid 1px #e1e1e1; }*/
-
 
 .searchform {
 	display: inline-block; 
