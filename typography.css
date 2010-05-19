@@ -5,7 +5,7 @@
    
 -------------------------------------------------------------- */
 
-html { font-size:100.01%; }
+html { font-size:100.01%; -webkit-font-smoothing: antialiased; }
 body { 
   font-size: 75%;
   color: #222; 

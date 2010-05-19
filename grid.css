@@ -4,14 +4,16 @@
 
        By default, the grid is 950px wide, with 24 columns
        spanning 30px, and a 10px margin between columns.
+
+       This is a modified version of the grid that 
+       comprises Blueprint CSS
 -------------------------------------------------------------- */
 
 /* A container should group all your columns. */
 .container                  { width: 950px; margin: 0 auto; }
 
 /* Use this class on any div.span / container to see the grid. */
-.showgrid                   { background: url("../images/grid.png"); }
-
+.showgrid                   { background: url("grid.png"); }
 
 /* Columns
 -------------------------------------------------------------- */
@@ -49,7 +51,7 @@
 .span-21 {width: 830px;}
 .span-22 {width: 870px;}
 .span-23 {width: 910px;}
-.span-24, div.span-24 { width:950px; margin-right:0; }
+.span-24 {width:950px; margin-right:0;}
 
 /* Add these to a column to append empty cols. */
 
@@ -103,31 +105,11 @@
 .prepend-22 { padding-left: 880px;}
 .prepend-23 { padding-left: 920px;}
 
-
 /* Border on right hand side of a column. */
-.border                                { padding-right: 4px; margin-right: 5px; border-right: 1px solid #eee; }
+.border         { padding-right: 4px; margin-right: 5px; border-right: 1px solid #eee; }
 
 /* Border with more whitespace, spans one column. */
-.colborder                             { padding-right: 24px; margin-right: 25px; border-right: 1px solid #eee; }
-
-
-/* Misc classes and elements
--------------------------------------------------------------- */
-
-/* In case you need to add a gutter above/below an element */
-.prepend-top                            { margin-top:1.5em; }
-.append-bottom                          { margin-bottom:1.5em; }
-
-/* Use a .box to create a padded box inside a column.  */
-.box {
-	padding: 8px 10px;
-	background: rgba(0, 0, 0, 0.02);
-	border-radius: 3px; 
-	-webkit-border-radius: 3px; 
-	-moz-border-radius: 3px;
-	boder-radius: 3px;
-	border: 1px solid #ddd;
-}
+.colborder      { padding-right: 24px; margin-right: 25px; border-right: 1px solid #eee; }
 
 /* Use this to create a horizontal ruler across a column. */
 hr {

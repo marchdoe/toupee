@@ -9,7 +9,7 @@ del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, dialog, figure, footer, header,
-hgroup, nav, section {b
+hgroup, nav, section {
   margin: 0;
   padding: 0;
   border: 0;

@@ -10,3 +10,19 @@
 .mod .bd ul li                   { position: relative; border-bottom: 1px solid #f1f1f1; padding: 5px 0; }
 .mod .bd ul li img               { float: left; margin-top: 6px; margin-left: 4px;}
 .mod .ft                         { position: relative; }
+
+/* PLACES A BOX AROUND MODULE CONTENT */
+.box {
+	background: rgba(0, 0, 0, .03);
+	border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+	boder-radius: 3px;
+	-moz-box-shadow: #ccc 0 0 2px;
+	-webkit-box-shadow: #ccc 0 0 2px;
+	box-shadow: #ccc 0 0 2px;
+}
+
+.mod.box .hd, 
+.mod.box .box .bd, 
+.mod.box .box .ft { padding: 0 10px; } 
