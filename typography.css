@@ -16,9 +16,9 @@ body {
 /* HEADINGS
 ========================= */
 
-h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #111; }
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #333; }
 
-h1             { font-size: 3em; line-height: 1; margin-bottom: 0.5em; font-family: 'Vollkorn', arial, serif;  }
+h1             { font-size: 2.5em; font-weight: bold; line-height: 1.2em; margin-bottom: 0.5em; }
 h2             { font-size: 2em; margin-bottom: 0.75em; }
 h3             { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
 h4             { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
@@ -68,39 +68,35 @@ dd          { margin-left: 1.5em;}
 /* TABLES
 ========================= */
 
-table 									{ width: 100%; background: #fff; }
-table caption 							{ margin: 0; padding: 8px 10px; text-align: left; border: 1px solid #000; border-bottom: none; background: #fff; }
-table th, table td 						{ margin: 0; padding: 8px 10px; text-align: center; border-bottom: 1px solid #e1e1e1; }
-table th 								{ font-size: 14px; font-weight: bold; }
-table th.left							{ -moz-border-radius-topleft: 3px;	-webkit-border-top-left-radius: 3px;  border-top-left-radius: 3px; }
-table th.right							{ -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px;  border-top-right-radius: 3px;  }
-table .name 							{ text-align: left; }
-table tr 								{ background-color: #fff; }
-table tr.last td						{ border-bottom: none; }
-table tr.alt 							{ background-color: #e5ecf9; }
+table                   { width: 100%; background: #fff; }
+table caption           { margin: 0; padding: 8px 10px; text-align: left; border: 1px solid #000; border-bottom: none; background: #fff; }
+table th, table td      { margin: 0; padding: 8px 10px; text-align: center; border-bottom: 1px solid #e1e1e1; }
+table th                { font-size: 14px; font-weight: bold; }
+table th.left           { -moz-border-radius-topleft: 3px;	-webkit-border-top-left-radius: 3px;  border-top-left-radius: 3px; }
+table th.right          { -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px;  border-top-right-radius: 3px;  }
+table .name             { text-align: left; }
+table tr                { background-color: #fff; }
+table tr.last td        { border-bottom: none; }
+table tr.alt            { background-color: #e5ecf9; }
 table td a, 
-table td a:hover 						{ font-weight: bold; border: none; }
+table td a:hover        { font-weight: bold; border: none; }
 
 
 /* Misc classes 
-
-TODO FIGURE OUT WHAT IS REALLY NEEDED HERE
-
 -------------------------------------------------------------- */
-.right				{ float: right; }
-.left				{ float: left; }
-.reset				{ margin: 0; padding: 0; }
-.small     			{ font-size: 10px; }
-.large				{ font-size: 16px; }
-.hide				{ display: none; }
-.quiet				{ color: #bbb; }
-.loud				{ color: #000; font-weight: bold; }
-.required			{ color: #ff0000; }
-.highlight			{ background-color:#ff0; padding: 2px 6px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
-.added				{ background-color:#060; color: #fff; padding: 2px 6px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+.right              { float: right; }
+.left               { float: left; }
+.reset              { margin: 0; padding: 0; }
+.small              { font-size: 10px; }
+.large              { font-size: 16px; }
+.hide               { display: none; }
+.quiet              { color: #bbb; }
+.loud               { color: #000; font-weight: bold; }
+.required           { color: #ff0000; }
+.highlight          { background-color:#ff0; padding: 2px 6px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.success            { background-color:#060; color: #fff; padding: 2px 6px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+.error				{ background-color:#fcc; border: 1px solid #f00; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px }
+.pending			{ background-color:#ffc; border: 1px solid yellow; padding: 2px 6px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 .removed			{ background-color:#900; color: #fff; padding: 2px 6px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
-.error				{ background-color: #fcc; border: 1px solid #f00; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px }
-.pending			{ background-color: #ffc; border: 1px solid yellow; padding: 2px 6px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
-.sort				{ background-color: #f1f1f1; border: 1px solid #e1e1e1;   padding: 2px 6px;  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 
 

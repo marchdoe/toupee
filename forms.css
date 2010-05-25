@@ -63,7 +63,7 @@ form fieldset textarea:focus 		{ border-top-color: #ddd; background: #d0eeff; ou
 
 /* SEARCH FORM
 ======================== */
-.mod .bd ul li.searchform                   { padding: 5px; } /*HACK FOR NOW TODO FIGURE OUT HOW TO REFACTOR THIS*/
+.mod .bd ul li.searchform                   { padding: 5px 5px 3px 5px; }
 .mod.search form fieldset					{ border: none; }
 
 .searchform {
@@ -83,8 +83,7 @@ form fieldset textarea:focus 		{ border-top-color: #ddd; background: #d0eeff; ou
 	-ms-filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); /* ie8 */
 }
 
-.searchform .searchfield           { background: #fff; padding: 8px; width: 590px; border: solid 1px #bcbbbb; outline: none;
-
+.searchform .searchfield           { background: #fff; padding: 8px; width: 470px; border: solid 1px #bcbbbb; outline: none;
 	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
 	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.2); -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.2); box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
 }
