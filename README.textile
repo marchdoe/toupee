@@ -1,0 +1,4 @@
+WORK IN PROGRESS NEEDS BETTER DOCUMENTATION AND EXAMPLES -- FEEL FREE TO CHECK IT OUT THOUGH
+
+
+Toupee is a simple flexible visual framework. Pieces can be added or subtracted depending on you what need or want, it is all just part of the "disguise"
