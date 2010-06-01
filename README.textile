@@ -2,3 +2,20 @@ WORK IN PROGRESS NEEDS BETTER DOCUMENTATION AND EXAMPLES -- FEEL FREE TO CHECK I
 
 
 Toupee is a simple flexible visual framework. Pieces can be added or subtracted depending on you what need or want, it is all just part of the "disguise"
+
+Over that time I have saved those patterns and turned them into a lean, customizable framework. That framework is Toupee. It ads a visual layer to your code. It could be used for a prototype or pushed all the way to production. Stylesheets can be removed or added. Everything is loosely joined and highly customizable. Give it a try. Your feedback is also welcome. 
+
+
+h2. The philosophy 
+
+*The "structure" layer*
+It's the barebones style-set to get something going.
+It is comprised of reset.css, grid.css, typography.css, forms.css
+button.css and modules.css
+
+*The "base design" layer*
+The first visual layer. It would include brand,
+brand colors, specific styles related to that of your site design
+
+*The "application specific" layer* (optional)
+Lets say that two or three applications fall under your brand, you can create application specific styles in this layer.
