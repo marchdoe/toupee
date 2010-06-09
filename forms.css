@@ -63,8 +63,8 @@ form fieldset textarea:focus 		{ border-top-color: #ddd; background: #d0eeff; ou
 
 /* SEARCH FORM
 ======================== */
-.mod .bd ul li.searchform                   { padding: 5px 5px 3px 5px; }
-.mod.search form fieldset					{ border: none; }
+.mod ul li.searchform           { padding: 5px 5px 3px 5px; }
+.mod.search form fieldset				{ border: none; }
 
 .searchform {
 	display: inline-block; 
