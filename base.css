@@ -6,7 +6,7 @@ p { font-size:1.4em; }
 /* HEADER
 ---------------------------- */
 header                          { margin-bottom: 20px; }
-header h1                       { padding: 20px 60px 10px 10px; margin: 0; background: #f1f1f1 url("/images/logo.png") no-repeat center right;  display: inline-block; font-family: 'Vollkorn'; }
+header h1                       { padding: 20px 60px 10px 10px; margin: 0; background: #f1f1f1 url("/images/logo.png") no-repeat center right;  display: inline-block; }
 header h1 a                     { color: #aaa; text-decoration: none; }
 
 /* NAVIGATION

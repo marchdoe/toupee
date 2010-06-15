@@ -19,3 +19,8 @@ brand colors, specific styles related to that of your site design
 
 *The "application specific" layer* (optional)
 Lets say that two or three applications fall under your brand, you can create application specific styles in this layer.
+
+h2. Uses of Toupee in the wild
+
+<a href="http://disguise.heroku.com">Disguise</a>
+<a href="http://github.com/jackdempsey/attache">Attache</a>
