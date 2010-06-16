@@ -10,7 +10,7 @@ h2. The philosophy
 
 *The "structure" layer*
 It's the barebones style-set to get something going.
-It is comprised of reset.css, grid.css, typography.css, forms.css
+It is comprised of reset.css, structure.css, typography.css, forms.css
 button.css and modules.css
 
 *The "base design" layer*
