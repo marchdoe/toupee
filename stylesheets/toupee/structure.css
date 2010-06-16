@@ -1,23 +1,8 @@
-/* --------------------------------------------------------------
-       grid.css
-       * Sets up an easy-to-use grid of 24 columns.
-
-       By default, the grid is 950px wide, with 24 columns
-       spanning 30px, and a 10px margin between columns.
-
-       This is a modified version of the grid that 
-       comprises Blueprint CSS
--------------------------------------------------------------- */
-
 /* A container should group all your columns. */
 .container                  { width: 950px; margin: 0 auto; }
 
-/* Use this class on any div.span / container to see the grid. */
-.showgrid                   { background: url("grid.png"); }
-
 /* Columns
 -------------------------------------------------------------- */
-
 /* Sets up basic grid floating and margin. */
 .span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8, .span-9, .span-10, .span-11, .span-12, .span-13, .span-14, .span-15, .span-16, .span-17, .span-18, .span-19, .span-20, .span-21, .span-22, .span-23, .span-24 {
   float: left;
@@ -25,7 +10,7 @@
 }
 
 /* The last column in a row needs this class. */
-.last, div.last { margin-right: 0; }
+.last { margin-right: 0; }
 
 /* Use these classes to set the width of a column. */
 .span-1 {width: 30px;}
@@ -54,7 +39,6 @@
 .span-24 {width:950px; margin-right:0;}
 
 /* Add these to a column to append empty cols. */
-
 .append-1 { padding-right: 40px;}
 .append-2 { padding-right: 80px;}
 .append-3 { padding-right: 120px;}
@@ -80,7 +64,6 @@
 .append-23 { padding-right: 920px;}
 
 /* Add these to a column to prepend empty cols. */
-
 .prepend-1 { padding-left: 40px;}
 .prepend-2 { padding-left: 80px;}
 .prepend-3 { padding-left: 120px;}
@@ -137,7 +120,5 @@ hr {
 }
 .clearfix, .container {display: block;}
 
-/* Regular clearing
-   apply to column that should drop below previous ones. */
-
 .clear { clear:both; }
+

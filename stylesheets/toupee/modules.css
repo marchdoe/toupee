@@ -2,11 +2,11 @@
 ============================= */
 section.mod                                 { margin-bottom: 20px; }
 section.mod header                          { position: relative; margin: 0; padding: 0; }
-section.mod header h2                       { border-bottom: 1px solid #e1e1e1; position: relative;}
+section.mod header h2                       { margin-bottom: 5px; border-bottom: 1px solid #e1e1e1; position: relative; }
 section.mod header h2 a                     { border: none; }
 section.mod header h2 .secondary            { position: absolute; right: 0; bottom: 7px; font-size: 12px; }
 section.mod article                         { position: relative; margin: 0; padding: 0; }
-section.mod article ul                      { list-style: none; margin: 0 0 15px; padding: 0; }
+section.mod article ul                      { list-style: none; margin: 0 0 10px; padding: 0; }
 section.mod article ul li                   { position: relative; border-bottom: 1px solid #f1f1f1; padding: 5px 0; }
 section.mod article ul li img               { float: left; margin-top: 6px; margin-left: 4px;}
 section.mod footer                          { border: none; margin: 0; padding: 0; }
