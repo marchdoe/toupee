@@ -1,3 +1,9 @@
+@import url("toupee/reset.css");
+@import url("toupee/buttons.css");
+@import url("toupee/forms.css");
+@import url("toupee/modules.css");
+@import url("toupee/structure.css");
+@import url("toupee/typography.css");
 
 a { text-decoration: none; cursor: pointer; }
 a:hover { text-decoration: underline; }
